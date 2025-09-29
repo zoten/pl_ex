@@ -1,0 +1,9 @@
+{application,plex_catalog_reader,
+             [{modules,['Elixir.PlexCatalogReader',
+                        'Elixir.PlexCatalogReader.Application']},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,pl_ex,finch,jason]},
+              {description,"plex_catalog_reader"},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.PlexCatalogReader.Application',[]}}]}.
